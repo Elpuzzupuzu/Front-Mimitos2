@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
             // Evento para redirigir a la página de detalles del producto
             productDiv.querySelector('.view-details').addEventListener('click', () => {
-                window.location.href = `producto.html?productId=${product.id_product}`;
+                window.location.href = `../views/producto.html?productId=${product.id_product}`;
             });
         });
     }
